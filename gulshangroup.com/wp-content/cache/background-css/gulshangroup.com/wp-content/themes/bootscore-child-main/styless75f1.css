@@ -1,0 +1,943 @@
+/*#filler {*/
+/*  height: 1000px;*/
+/*}*/
+
+.project-gallery-slider .ad-img {
+        margin: 0px 30px 20px 0;
+    }
+    	.gs-project-listing-banner {
+		padding: 120px 0 20px;
+	}
+	.gulasan_botnia:after {
+	    color:#C49A6C;
+	}
+	.header_img_1{
+	    padding-left:5%;
+	}
+	.tour-btn{
+	       left: 50%;
+    transform: translate(-50%);
+    bottom: 2rem;
+
+	}
+	.gs-button.gs-blog-btn.tour-btn a:hover {
+    color: #C49A6C !important;
+    }
+    .tour_btn_1.gs-button.gs-blog-btn a:hover {
+    color: #FFF !important;
+    background-color:#C49A6C!important;
+}
+.know_more_1{
+    position: absolute;
+    bottom: 50px;
+}
+.know_more_1.gs-button a{
+    background-color:#C49A6C; color:#fff;outline: 2px solid #fff;
+    border:none;
+}
+
+.page-id-112 a.blog-news {
+    display: none!important;
+}
+.point-img{
+       position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translate(8px, -50%);
+}
+.impacts-cards{
+   position: relative;
+    border-right: 2px solid #1D3956;
+}
+.card-left-text{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.right-img-text{
+height:495px
+}
+    .page-template-Non-Resident-Indian .accordion-item:first-of-type {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.page-template-Non-Resident-Indian .accordion-button:not(.collapsed){
+    font-weight:500;
+    color:#000;
+}
+.page-template-Non-Resident-Indian .accordion-button{
+     font-weight:500;
+}
+.page-template-Non-Resident-Indian .accordion-body {
+    font-size: 15px;
+}
+.page-template-Non-Resident-Indian .accordion-button {
+margin-bottom: 20px;
+border:1px solid #DBDBDB;
+border-radius:0!important;
+}
+.page-template-Non-Resident-Indian .accordion-item{
+    border:0;
+   border-radius:0!important; 
+}
+.page-template-Non-Resident-Indian .accordion-item:first-of-type .accordion-button {
+    border-radius: 0;
+    border:1px solid #DBDBDB;
+}
+.page-template-Non-Resident-Indian .accordion-collapse {
+    border-left:1px solid #DBDBDB;
+    border-right:1px solid #DBDBDB;
+    border-bottom:1px solid #DBDBDB;
+    margin-top:-2%;
+    margin-bottom: 25px;
+    
+}
+.page-template-Non-Resident-Indian .accordion-button::after{
+  background-image:var(--wpr-bg-816db888-fab7-4bd0-8df9-f94856057a49);  
+}
+.page-template-Non-Resident-Indian .accordion-button:not(.collapsed)::after{
+   background-image:var(--wpr-bg-47cf4aca-fc52-4cca-bc49-13a4ed53f16f);   
+}
+    .page-template-Life-at-Gulshan .story-box {
+    box-shadow: 0px 0px 10px 0px #bbb;
+        height: 380px;
+}
+
+.page-template-Life-at-Gulshan .our-story-box{
+    margin-top: -10%;
+    margin-bottom: -10%;
+    z-index: 9;
+}
+
+.page-template-Life-at-Gulshan .owl-item {
+    margin:10px 0;
+}
+
+.page-template-Life-at-Gulshan .owl-carousel .owl-nav button.owl-next, .page-template-Life-at-Gulshan .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 130px;
+}
+.page-template-Life-at-Gulshan .owl-carousel .owl-nav button.owl-next{
+    left: 380px;
+}
+.page-template-Life-at-Gulshan .owl-carousel .owl-nav button.owl-prev{
+   left: 310px;  
+}
+
+.page-template-Life-at-Gulshan .owl-theme .owl-nav [class*=owl-]:hover{
+        background: transparent;
+}
+.page-template-Life-at-Gulshan .life-gallery{
+    height:300px;
+}
+.page-template-Life-at-Gulshan .owl-theme .owl-dots .owl-dot span {
+    background-color: #bbb;
+
+}
+.page-template-Life-at-Gulshan .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 20px;
+    padding-top:20px;
+    background-color:#fff;
+}
+.page-template-Life-at-Gulshan .owl-theme .owl-dots .owl-dot.active span, .page-template-Life-at-Gulshan .owl-theme .owl-dots .owl-dot:hover span {
+    background: #081d2d;
+    border:0;
+}
+.page-template-Life-at-Gulshan .owl-theme .owl-dots .owl-dot.active span, .page-template-Life-at-Gulshan .owl-theme .owl-dots .owl-dot.active span, .page-template-Life-at-Gulshan .owl-theme .owl-dots .owl-dot:hover span{
+    height:15px;
+    width:15px;
+}
+.page-template-Life-at-Gulshan .owl-nav button.owl-next span.arrowNext {
+    width:50%;
+    right:0;
+}
+.page-template-Life-at-Gulshan .owl-nav button.owl-prev span.arrowPrev {
+    left: 0px;
+    width: 50%;
+}
+    .page-template-Events-List .careers-header-text{
+   
+    position: absolute;
+    bottom: 14%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.page-template-Events-List .post-image img {
+    height: 100%!important;
+	width:100%!important;
+}
+.page-template-Events-List h2.blog-post-title a {
+    font-size:18px;
+}
+
+.page-template-Events-List .event-slider-text{
+    font-size:15px;
+    color:#818181;
+}
+.page-template-Events-List .card.horizontal {
+    border: none;
+    box-shadow: 0px 0px 5px 0px #bbb;
+    border-radius: 0;
+}
+.page-template-Events-List .owl-stage{
+    margin-bottom:10px;
+}
+.page-template-Events-List .owl-theme .owl-dots{
+    padding: 2% 0 2%;
+}
+.page-template-Events-List .owl-theme .owl-dots .owl-dot.active span{
+        background: #081d2d;
+        border:none;
+}
+.page-template-Events-List .owl-theme .owl-dots .owl-dot span {
+    background-color: #bbb
+}
+.page-template-Events-List .owl-theme .owl-dots .owl-dot.active span{
+    height:10px;
+    width:10px;
+}
+.page-template-Events-List .owl-theme .owl-dots .owl-dot:hover span{
+    border:none;
+    width: 20px;
+    height: 20px;
+}
+.page-template-Events-List .owl-theme .owl-nav {
+    top:27%;
+    color: #869791!important;
+}
+.page-template-Events-List .owl-nav button span{
+    font-size:50px;
+    color:#081d2d;
+}
+	.blog .post-featured-img-1 {
+    height: 100vh;
+}
+	.blog .post-featured-img-2 {
+    height: 40vh;
+}
+	.blog h2.blog-post-title {
+    font-size: 30px;
+    color: #1D3956;
+    font-weight: 400;
+
+}
+	.blog .blog-single-post{
+   
+    padding-bottom: 4%;
+}
+
+	.blog h2.blog-post-title {
+    font-size:20px;
+}
+	.blog .know_more_1.gs-button a{
+    background-color:#C49A6C; color:#fff;outline-offset: -5px;outline: 2px solid #fff;
+    border:none;
+}
+	.blog .know_more_1.gs-button a:hover{
+     background-color:  #fff!important;
+    color:#C49A6C!important;
+    outline-offset: -5px;
+    outline: 2px solid #C49A6C!important;
+    border:#fff!important;
+    border:none!important;
+}
+.page-template-meet-the-family .meet-family .founder-details a:hover i {
+    color: #081D2D;
+}
+.page-template-meet-the-family .owl-stage-outer {
+    padding: 0px 0 50px;
+}
+.page-template-meet-the-family .owl-theme .owl-nav{
+    top:88%;
+}
+.page-template-meet-the-family .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    right: 120px;
+}
+ .page-template-meet-the-family .owl-carousel .owl-nav button.owl-prev{
+     position: absolute;
+    right: 30px;
+}
+.page-template-meet-the-family .family-member:nth-child(even){
+    flex-direction: row-reverse;
+}
+    .page-template-faq .accordion-header{
+        margin-bottom:20px;
+        border:1px solid #DBDBDB;
+    }
+   .page-template-faq .accordion-item{
+        border:0;
+    }
+    .page-template-faq .accordion-collapse{
+        border-left:1px solid #DBDBDB;
+        border-right:1px solid #DBDBDB;
+        border-radius: 0!important;
+        border-bottom:1px solid #DBDBDB;
+        margin-top: -2%;
+        
+    }
+    .page-template-faq .more-jobs-btn{
+    outline: 2px solid #1D3956;
+    outline-offset: -5px;
+    background-color:transparent;
+    color: #1D3956;
+}
+.page-template-faq .more-jobs-btn:hover{
+    background-color:#1D3956;
+    color: #fff;
+}
+.page-template-faq .faq-load, .faq-load-btn-1{
+    display:none;
+}
+.page-template-news .owl-carousel.owl-loaded {
+    height: 400px;
+}
+.page-template-news .news-featured-img-2{
+    height:350px;
+    
+}
+	.page-template-news .post-featured-img-2 {
+    height: 50vh;
+}
+	.page-template-news h2.blog-post-title {
+    font-size: 30px;
+}
+	.page-template-news .blog-single-post{
+    margin-top:-10%;
+    padding-bottom: 20%;
+}
+
+
+	.page-template-news h2.blog-post-title {
+    font-size:20px;
+}
+	.page-template-news .know_more_1.gs-button a{
+    background-color:transparent; color:#fff;outline-offset: -5px;outline: 2px solid #fff;
+    border:none;
+}
+	.page-template-news .know_more_1.gs-button a:hover{
+     background-color:  #fff!important;
+    color:#C49A6C!important;
+    outline-offset: -5px;
+    outline: 2px solid #C49A6C!important;
+    border:#fff!important;
+    border:none!important;
+}
+
+
+
+
+.page-template-news .owl-theme .owl-nav{
+    position:absolute;
+}
+.page-template-news .owl-nav button span{
+    color:#fff;
+    font-size: 70px;
+    
+}
+
+.page-template-news .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    right:10%;
+    bottom: 250px;
+
+}
+.page-template-news .owl-carousel .owl-nav button.owl-next{
+     position: absolute;
+    right:2%;
+    bottom: 250px;
+}
+.page-template-news .owl-nav button span:focus-visible {
+    outline:unset;
+}
+.page-template-news .owl-theme .owl-nav [class*=owl-]:hover{
+      background: transparent;
+}
+.page-template-news .news-posts{
+    margin-top:-15%;
+    background-color:#E3E3E3;
+}
+.page-template-news .news-post-title a {
+    color: #000;
+}
+.page-template-news .gs-play-btn {
+    left: 50%;
+}
+.page-template-news .card-body{
+    height:270px;
+}
+.page-template-news .card.horizontal{
+    border: 0;
+    box-shadow: 0px 0px 10px 0px #bbb;
+}
+.page-template-news .white-space{
+    margin-top:-24%;
+    padding:12%;
+}
+.page-template-news .white-space-1 {
+    padding: 12%;
+    margin-bottom: -22%;
+    position: relative;
+}
+    .page-template-Events-List .careers-header-text{
+   
+    position: absolute;
+    bottom: 14%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.page-template-Events-List  .post-image img {
+    height: 100%!important;
+	width:100%!important;
+}
+.page-template-Events-List h2.blog-post-title a {
+    font-size:18px;
+}
+
+.page-template-Events-List .event-slider-text{
+    font-size:15px;
+    color:#818181;
+}
+.page-template-Events-List .card.horizontal {
+    border: none;
+    box-shadow: 0px 0px 5px 0px #bbb;
+    border-radius: 0;
+}
+.page-template-Events-List .owl-stage{
+    margin-bottom:10px;
+}
+
+.page-template-Events-List .owl-theme .owl-dots .owl-dot.active span{
+        background: #081d2d;
+        border:none;
+}
+.page-template-Events-List .owl-theme .owl-dots .owl-dot span {
+    background-color: #bbb
+}
+.page-template-Events-List .owl-theme .owl-dots .owl-dot.active span{
+    height:10px;
+    width:10px;
+}
+.page-template-Events-List .owl-theme .owl-dots .owl-dot:hover span{
+    border:none;
+    width: 10px;
+    height: 10px;
+}
+.page-template-Events-List .owl-theme .owl-nav {
+    top:27%;
+    color: #081d2d!important;
+}
+button.owl-prev span{
+       left: -40px; 
+}
+button.owl-next span{
+       right: -40px; 
+}
+ .page-template-gs-privacy .accordion-item:first-of-type {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.page-template-gs-privacy .accordion-button:not(.collapsed){
+    font-weight:700;
+    color:#000;
+}
+.page-template-gs-privacy.accordion-button{
+     font-weight:700;
+}
+.page-template-gs-privacy .accordion-body {
+    font-size: 15px;
+}
+.page-template-gs-privacy .accordion-button {
+margin-bottom: 20px;
+border:1px solid #DBDBDB;
+border-radius:0!important;
+}
+.page-template-gs-privacy .accordion-item
+{
+    border:0;
+   border-radius:0!important; 
+}
+.page-template-gs-privacy .accordion-item:first-of-type .accordion-button {
+    border-radius: 0;
+    border:1px solid #DBDBDB;
+}
+.page-template-gs-privacy .accordion-collapse {
+    border-left:1px solid #DBDBDB;
+    border-right:1px solid #DBDBDB;
+    border-bottom:1px solid #DBDBDB;
+    
+}
+.page-template-gs-privacy .accordion-button::after{
+  background-image:var(--wpr-bg-f1257999-dec3-43bd-9438-1d2006eb6777);  
+}
+.page-template-gs-privacy .accordion-button:not(.collapsed)::after{
+   background-image:var(--wpr-bg-a9faf3ad-2c08-49a7-80d2-b0322ae1c0e9);   
+}
+.page-template-gs-privacy h2{
+     color: #1D3956!important;
+     font-weight:700;
+     
+}
+.single  .post-featured-img {
+    background-position: center; background-size: cover; background-repeat: no-repeat;
+}
+   .single .single-post h1{
+        border-left:none;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .single p.author-name:after{
+        content:none;
+    }
+    .single .post-featured-img-2{
+        height:45vh;
+    }
+    .single .owl-theme .owl-nav{
+    position:relative;
+}
+.single .owl-nav button span{
+    color:#000;
+    font-size: 70px;
+    
+}
+
+.single .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    right:10%;
+    bottom: 320px;
+
+}
+.single .owl-carousel .owl-nav button.owl-next{
+     position: absolute;
+    right:2%;
+    bottom: 320px;
+}
+.single .owl-nav button span:focus-visible {
+    outline:unset;
+}
+.single .owl-theme .owl-nav [class*=owl-]:hover{
+      background: transparent;
+}
+.single .slider-title{
+    font-size:15px!important;
+}
+.single h1, .single h2{
+     color: #1D3956!important;
+}
+.single-post .post-featured-img {
+    background-position: center; background-size: cover; background-repeat: no-repeat;
+}
+    .single-post h1{
+        border-left:none;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+  .single-post p.author-name:after{
+        content:none;
+    }
+    .single-post .post-featured-img-2{
+        height:45vh;
+    }
+    .single-post .owl-theme .owl-nav{
+    position:relative;
+}
+.single-post .owl-nav button span{
+    color:#000;
+    font-size: 70px;
+    
+}
+
+.single-post .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    right:10%;
+    bottom: 350px;
+
+}
+.single-post .owl-carousel .owl-nav button.owl-next{
+     position: absolute;
+    right:2%;
+    bottom: 350px;
+}
+.single-post .owl-nav button span:focus-visible {
+    outline:unset;
+}
+.single-post .owl-theme .owl-nav [class*=owl-]:hover{
+      background: transparent;
+}
+.single-post .slider-title{
+    font-size:15px!important;
+}
+.page-template-Investor-Corner .Experience-text
+{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   .page-template-Investor-Corner .story-box {
+    box-shadow: 0px 0px 10px 0px #bbb;
+}
+.page-template-Investor-Corner .our-story-quality{
+    padding-bottom:15%;
+}
+.page-template-Investor-Corner .our-story-box{
+    margin-top: -10%;
+    margin-bottom: -10%;
+    z-index: 9;
+}
+.page-template-Investor-Corner .our-story-white-space{
+    padding:9%;
+    background-color:#fff;
+}
+ .page-template-contect-us .contect-us-img {
+    width: 100%;
+  }
+
+  .page-template-contect-us  .contact-us-address {
+    font-size: 22px;
+  }
+ /*.page-template-contect-us .gs-border-between{*/
+ /*   border-right: 2px solid #fff;*/
+ /* }*/
+  .page-template-contect-us .gs-contact-contact2 .gs-contact-outer {
+    top: -30px;
+}
+
+/*********************************Event Slider*******************************************/
+
+ .slick-slide {
+  
+    height: auto;
+
+}
+.slick-slide img{
+    width:95%;
+}
+.slick-lightbox-close {
+    position: absolute;
+    top: 70px
+}
+
+.slick-track{
+  margin-bottom: 10px;  
+}
+.slick-lightbox-close:before {
+        font-size: 40px;
+}
+.event-text{
+    width:95%;
+}
+.slick-list.draggable {
+    margin-left: 10px;
+}
+
+.slick-lightbox-close {
+    top: 50px!important;
+    right: 50px!important;
+}
+.slick-lightbox-close:before {
+    font-size: 50px!important;
+}
+.slick-dots li button:before {
+    font-size: 15px!important;
+}
+.slide-arrow{
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+}
+.prev-arrow{
+  left: -40px;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 15px solid #113463;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.next-arrow{
+  right: -40px;
+  width: 0;
+  height: 0;
+  border-right: 0 solid transparent;
+  border-left: 15px solid #113463;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+button.slide-arrow.next-arrow.slick-arrow, button.slide-arrow.prev-arrow.slick-arrow {
+    background:#fff;
+}
+@media only screen and (min-width: 1701px) {
+.blog .post-featured-img-1 {
+    height: 560px;
+}
+.blog .post-featured-img-2 {
+    height: 300px;
+}
+    .page-template-news .post-featured-img-2 {
+    height: 560px;
+}
+    .single .post-featured-img-2 {
+    height: 300px;
+}
+    .single-post .post-featured-img-2 {
+    height: 300px;
+}
+}
+@media only screen and (min-width: 1900px) {
+
+.page-template-news .owl-carousel.owl-loaded {
+    height: 430px;
+}
+
+}
+@media only screen and (min-width: 2000px) {
+.page-template-Life-at-Gulshan .our-story-box {
+    margin-top: -3%;
+    margin-bottom: -3%;
+}
+.page-template-Life-at-Gulshan .our-story-white-space {
+    padding: 3%;
+}
+.page-template-Investor-Corner .our-story-box {
+    margin-top: -3%;
+    margin-bottom: -3%;
+}
+.page-template-Investor-Corner .our-story-white-space {
+    padding: 3%;
+}
+}
+@media only screen and (max-width: 1300px) {
+.page-template-Life-at-Gulshan .our-story-text{
+    font-size:12px;
+}
+.page-template-Investor-Corner .our-story-text{
+    font-size:12px;
+}
+	.page-template-news h2.blog-post-title {
+    font-size:17px;
+}
+
+}
+@media only screen and (max-width: 1024px) {
+.page-template-Life-at-Gulshan .our-story-text{
+    font-size:10px;
+}
+.page-template-Life-at-Gulshan .owl-carousel .owl-nav button.owl-prev {
+    left: 30px;
+}
+.page-template-Life-at-Gulshan .owl-carousel .owl-nav button.owl-next {
+    left: 100px;
+}
+		.blog .post-featured-img-1 {
+    height: 40vh;
+     }
+	
+		.blog .post-featured-img-2 {
+    height: 22vh;
+}
+   .page-template-news .owl-carousel .owl-nav button.owl-prev{
+    bottom: 530px;
+
+}
+.page-template-news .owl-carousel .owl-nav button.owl-next{
+    bottom: 530px;
+} 
+.page-template-news .owl-carousel.owl-loaded {
+    height: 750px;
+}
+
+
+.page-template-news .white-space{
+    margin-top:-6%;
+}
+   .single .owl-carousel .owl-nav button.owl-prev,    .single .owl-carousel .owl-nav button.owl-next{
+    bottom: 490px;
+}
+.single .post-featured-img-2 {
+    height: 22vh;
+}
+   .single-post .owl-carousel .owl-nav button.owl-prev, .single-post .owl-carousel .owl-nav button.owl-next{
+    bottom: 490px;
+}
+.single-post .post-featured-img-2 {
+    height: 22vh;
+}
+.page-template-Investor-Corner .our-story-text{
+    font-size:10px;
+}
+  .page-template-contect-us .contact-us-address {
+    font-size: 18px;
+}
+.single-post .owl-carousel .owl-nav button.owl-prev{
+    right:20%;
+}
+.single-post .owl-carousel .owl-nav button.owl-next{
+        bottom: 490px;
+}
+}
+@media screen and (max-width: 767px) {
+    .gs-project-listing-banner {
+			padding: 50px 0 15px;
+		}
+		.header_img_1{
+	    padding-left:0;
+	}
+
+	.tour_btn_1.gs-button a, .featured.gs-button a{
+	        padding: 0px 7px;
+	        font-size:10px;
+	}
+	.featured.gs-button a{
+	        padding: 5px 5px;
+	        font-size:10px;
+	}
+	.know_more_1{
+    position: initial;
+    
+}
+.impacts-cards{
+   position: relative;
+    border-right:0;
+}
+.right-img-text{
+height:auto;
+}
+.right-img-box{
+        flex-direction: column-reverse;
+}
+.page-template-Life-at-Gulshan .owl-carousel .founder-img {
+    width: 80%;
+}
+.page-template-Life-at-Gulshan .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    top:0;
+}
+.page-template-Life-at-Gulshan .owl-carousel .owl-nav button.owl-prev{
+    left: 0px
+}
+.page-template-Life-at-Gulshan .owl-theme .owl-nav {
+    top: 100%;
+}
+.page-template-Life-at-Gulshan .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+    left:auto;
+}
+.page-template-news .owl-carousel .owl-nav button.owl-prev, .page-template-news .owl-carousel .owl-nav button.owl-next{
+  display:none; 
+}
+
+.page-template-news .white-space{
+    margin-top:-10%;
+}
+.page-template-news .new-header-slider-text{
+    height:300px;
+}
+
+.single .owl-carousel .owl-nav button.owl-prev, .single .owl-carousel .owl-nav button.owl-next{
+    bottom: 530px;
+}
+.single .post-featured-img {
+    height: 58vh;
+    background-position: top; background-size: contain; background-repeat: no-repeat;
+}
+.single-post .owl-carousel .owl-nav button.owl-prev, .single-post .owl-carousel .owl-nav button.owl-next{
+    bottom: 530px;
+}
+.single-post .post-featured-img {
+    height: 58vh;
+    background-position: top; background-size: contain; background-repeat: no-repeat;
+}
+.page-template-news .card-body{
+    height:auto;
+}
+  .page-template-contect-us .gs-border-between {
+    border-right: unset;
+    border-bottom: 2px solid #fff;
+}
+.page-template-faq .accordion-collapse{
+
+        margin-top: -6%;
+        
+    }
+    .page-template-Life-at-Gulshan .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 0px;
+    padding-top:0px;
+}
+.page-template-Events-List .owl-theme .owl-dots{
+    padding: 0;
+    margin:0!important;
+}
+.page-template-gs-privacy h2{
+     color: #1D3956!important;
+     font-weight:700;
+     font-size:18px;
+     
+}
+.slide-arrow{
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+}
+
+button.slide-arrow.next-arrow.slick-arrow, button.slide-arrow.prev-arrow.slick-arrow {
+    background:#fff;
+}
+/*********************************Event Slider*******************************************/
+   .slick-slide img{
+    width:100%;
+} 
+.event-text{
+    width:100%;
+}
+.slick-list.draggable {
+    margin-left: 0;
+}
+.slick-lightbox-close {
+    right: 20px!important;
+}
+.prev-arrow{
+  left: -25px!important;
+}
+
+.next-arrow{
+  right: -25px!important;
+}
+.single-post button.owl-next span{
+       right: 0px; 
+}
+.slick-dots li {
+    margin: 0!important;
+}
+
+/*events page box and dot fix for iphone SE*/
+
+.page-id-424 .slick-dots li button:before {
+    font-size: 10px!important;
+}
+
+.page-id-424 .slick-dots li button:before {
+
+    width: 10px;
+    height: 10px;
+    font-size: 10px!important;
+}
+
+.page-id-424 .slick-dots li {
+    
+    width: 15px!important;
+    height: 15px!important;
+    
+}
+
+}
+@media screen and (max-width: 350px) {
+    .page-template-news .new-header-slider-text{
+    height:340px;
+}
+.page-template-news .new-header-slider-text{
+    height:350px;
+}
+
+}
