@@ -262,7 +262,7 @@ ul.sub-menu {
 }
 .menu-item-has-children:after {
   border: 0;
-  content: "\f107";
+  content: "" !important;
   font-family: "FontAwesome";
   vertical-align: baseline;
   padding: 0 5px;
@@ -3449,7 +3449,6 @@ button.accordion-button.collapsed {
   display: inline-block;
 }
 h2.text-color-gold.gulasan_botnia {
-  display: inline;
   position: relative;
 }
 .gulasan_botnia:after {
@@ -3469,6 +3468,11 @@ h2.text-color-gold.gulasan_botnia {
   left: -1px;
 
 }
+
+@media (max-width: 575.98px) {
+  .gulasan_botnia:before {
+display: none;
+  }}
 .gulasan_botnia1:after {
   left: -5px;
 }
@@ -4088,9 +4092,7 @@ h6 {
 .archive nav#nav-main {
   background: transparent;
 }
-.archive .navbar.fixed-top {
-  background: #081d2d !important;
-}
+
 @media screen and (max-width: 1024px) {
   .archive .gs-project-listing-banner {
     padding: 0;

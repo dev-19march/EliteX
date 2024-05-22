@@ -1,166 +1,332 @@
-HTTrack3.49-2+htsswf+htsjava launched on Thu, 09 May 2024 11:28:39 at https://gulshangroup.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://gulshangroup.com/ -O1 "C:\Users\nisha\OneDrive\Desktop\realty" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
-
-Information, Warnings and Errors reported for this mirror:
-note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
-	such as username/password authentication for websites mirrored in this project
-	do not share these files/folders if you want these information to remain private
-
-11:29:04	Error: 	"Not Found" (404) at link https://gulshangroup.com/wp-content/themes/bootscore-child-main/img/favicon/apple-touch-icon.png (from https://gulshangroup.com/)
-11:29:05	Error: 	"Not Found" (404) at link https://gulshangroup.com/wp-content/themes/bootscore-child-main/img/favicon/favicon-32x32.png (from https://gulshangroup.com/)
-11:29:05	Error: 	"Not Found" (404) at link https://gulshangroup.com/wp-content/themes/bootscore-child-main/img/favicon/favicon-16x16.png (from https://gulshangroup.com/)
-11:29:06	Error: 	"Not Found" (404) at link https://gulshangroup.com/wp-content/themes/bootscore-child-main/img/favicon/safari-pinned-tab.svg (from https://gulshangroup.com/)
-11:31:33	Error: 	"Not Found" (404) at link https://gulshangroup.com/about-us/ (from https://gulshangroup.com/)
-11:31:33	Error: 	"Not Found" (404) at link https://gulshangroup.com/?p=6364 (from https://gulshangroup.com/)
-11:31:33	Error: 	"Not Found" (404) at link https://gulshangroup.com/?p=6367 (from https://gulshangroup.com/)
-11:32:48	Warning: 	Moved Permanently for https://gulshangroup.com/?p=5952
-11:32:48	Warning: 	File has moved from https://gulshangroup.com/?p=5952 to https://gulshangroup.com/testimonial/testimonial-right/
-11:32:49	Error: 	"Not Found" (404) at link https://gulshangroup.com/projects/residential/t (from https://gulshangroup.com/projects/residential/)
-11:32:50	Error: 	"Not Found" (404) at link https://gulshangroup.com/projects/commercial/t (from https://gulshangroup.com/projects/commercial/)
-11:32:50	Error: 	"Not Found" (404) at link https://gulshangroup.com/projects/future-plan/t (from https://gulshangroup.com/projects/future-plan/)
-11:32:50	Warning: 	Moved Permanently for https://gulshangroup.com/?p=190
-11:32:50	Warning: 	File has moved from https://gulshangroup.com/?p=190 to https://gulshangroup.com/contact-us/
-11:32:51	Warning: 	Moved Permanently for https://gulshangroup.com/?p=107
-11:32:51	Warning: 	File has moved from https://gulshangroup.com/?p=107 to https://gulshangroup.com/about/
-11:32:51	Warning: 	Moved Permanently for https://gulshangroup.com/?p=153
-11:32:51	Warning: 	File has moved from https://gulshangroup.com/?p=153 to https://gulshangroup.com/meet-the-family/
-11:32:52	Warning: 	Moved Permanently for https://gulshangroup.com/?p=495
-11:32:52	Warning: 	File has moved from https://gulshangroup.com/?p=495 to https://gulshangroup.com/life-at-gulshan/
-11:32:52	Warning: 	Moved Permanently for https://gulshangroup.com/?p=378
-11:32:52	Warning: 	File has moved from https://gulshangroup.com/?p=378 to https://gulshangroup.com/careers/
-11:32:56	Warning: 	Moved Permanently for https://gulshangroup.com/?p=7030
-11:32:56	Warning: 	File has moved from https://gulshangroup.com/?p=7030 to https://gulshangroup.com/awards/
-11:33:01	Warning: 	Moved Permanently for https://gulshangroup.com/?p=424
-11:33:01	Warning: 	File has moved from https://gulshangroup.com/?p=424 to https://gulshangroup.com/events/
-11:33:02	Warning: 	Moved Permanently for https://gulshangroup.com/?p=7111
-11:33:02	Warning: 	File has moved from https://gulshangroup.com/?p=7111 to https://gulshangroup.com/in-the-news/
-11:33:02	Warning: 	Moved Permanently for https://gulshangroup.com/?p=474
-11:33:02	Warning: 	File has moved from https://gulshangroup.com/?p=474 to https://gulshangroup.com/nri/
-11:33:03	Warning: 	Moved Permanently for https://gulshangroup.com/?p=8352
-11:33:03	Warning: 	File has moved from https://gulshangroup.com/?p=8352 to https://gulshangroup.com/gulshan-avante-a-forward-life/
-11:35:36	Warning: 	Moved Permanently for https://gulshangroup.com/?p=8349
-11:35:36	Warning: 	File has moved from https://gulshangroup.com/?p=8349 to https://gulshangroup.com/celebrating-excellence-gulshan-dynasty-attains-completion-certificate/
-11:35:36	Warning: 	Moved Permanently for https://gulshangroup.com/?p=8342
-11:35:36	Warning: 	File has moved from https://gulshangroup.com/?p=8342 to https://gulshangroup.com/gulshan-dynasty-the-epitome-of-luxury-living/
-11:35:37	Warning: 	Moved Permanently for https://gulshangroup.com/?p=8310
-11:35:37	Warning: 	File has moved from https://gulshangroup.com/?p=8310 to https://gulshangroup.com/holistic-living-luxury-housing-redefined-for-wellness-in-delhi-ncr/
-11:35:37	Warning: 	Moved Permanently for https://gulshangroup.com/?p=8307
-11:35:37	Warning: 	File has moved from https://gulshangroup.com/?p=8307 to https://gulshangroup.com/elevating-luxury-living-the-essence-of-community-harmony/
-11:35:37	Warning: 	Moved Permanently for https://gulshangroup.com/?p=8302
-11:35:37	Warning: 	File has moved from https://gulshangroup.com/?p=8302 to https://gulshangroup.com/essentials-of-merchandising-luxury-living/
-11:35:37	Warning: 	Moved Permanently for https://gulshangroup.com/?p=531
-11:35:37	Warning: 	File has moved from https://gulshangroup.com/?p=531 to https://gulshangroup.com/csr/
-11:35:37	Warning: 	Moved Permanently for https://gulshangroup.com/?p=362
-11:35:37	Warning: 	File has moved from https://gulshangroup.com/?p=362 to https://gulshangroup.com/faqs/
-11:35:37	Warning: 	Moved Permanently for https://gulshangroup.com/?p=1105
-11:35:37	Warning: 	File has moved from https://gulshangroup.com/?p=1105 to https://gulshangroup.com/privacy-policy/
-11:35:37	Warning: 	Moved Permanently for https://gulshangroup.com/?p=6106
-11:35:37	Warning: 	File has moved from https://gulshangroup.com/?p=6106 to https://gulshangroup.com/disclaimer/
-11:35:37	Warning: 	Moved Permanently for https://gulshangroup.com/?p=7070
-11:35:37	Warning: 	File has moved from https://gulshangroup.com/?p=7070 to https://gulshangroup.com/awards/the-times-group-et-leadership-excellence/
-11:35:38	Error: 	"Not Found" (404) at link https://gulshangroup.com/blogs/page/2/t (from https://gulshangroup.com/blogs/page/2/)
-11:35:41	Warning: 	Moved Permanently for https://gulshangroup.com/?p=8247
-11:35:41	Warning: 	File has moved from https://gulshangroup.com/?p=8247 to https://gulshangroup.com/chica-loca-by-sunny-leone-a-culinary-extravaganza-unveiled-on-20-jan-24/
-11:35:41	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3519
-11:35:41	Warning: 	File has moved from https://gulshangroup.com/?p=3519 to https://gulshangroup.com/home-decor-trends-to-bring-the-best-of-your-luxurious-home-in-2023/
-11:35:41	Warning: 	Moved Permanently for https://gulshangroup.com/?p=92
-11:35:41	Warning: 	File has moved from https://gulshangroup.com/?p=92 to https://gulshangroup.com/gulshan-botnia-community/
-11:35:41	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3463
-11:35:41	Warning: 	File has moved from https://gulshangroup.com/?p=3463 to https://gulshangroup.com/checklist-for-the-home-buyer/
-11:35:41	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3465
-11:35:41	Warning: 	File has moved from https://gulshangroup.com/?p=3465 to https://gulshangroup.com/luxury-appreciating-the-unnoticed-details-not-splurging-on-extravagance/
-11:35:41	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3444
-11:35:41	Warning: 	File has moved from https://gulshangroup.com/?p=3444 to https://gulshangroup.com/gulshan-a-journey-of-excellence/
-11:35:41	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3369
-11:35:41	Warning: 	File has moved from https://gulshangroup.com/?p=3369 to https://gulshangroup.com/gulshan-group-marks-a-legacy-of-excellence/
-11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3344
-11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=3344 to https://gulshangroup.com/5-things-to-keep-in-mind-while-looking-for-a-house-in-noida/
-11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3153
-11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=3153 to https://gulshangroup.com/high-demand-for-ready-to-move-in-homes/
-11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3442
-11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=3442 to https://gulshangroup.com/gulshan-botnia-a-perfect-place-to-live/
-11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3440
-11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=3440 to https://gulshangroup.com/benefits-of-living-on-the-top-floor-2/
-11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3028
-11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=3028 to https://gulshangroup.com/what-are-a-few-amenities-that-make-a-residential-project-luxurious/
-11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2943
-11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=2943 to https://gulshangroup.com/holistic-wellness-redefining-luxury/
-11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2942
-11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=2942 to https://gulshangroup.com/real-estate-marketing-trends-to-watch-out-for/
-11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2195
-11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=2195 to https://gulshangroup.com/what-makes-noida-expressway-the-preferred-choice-for-homebuyers-in-delhi-ncr/
-11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2200
-11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=2200 to https://gulshangroup.com/are-you-looking-for-luxury-lets-do-it-gulshan-style/
-11:35:42	Error: 	"Not Found" (404) at link https://gulshangroup.com/projects/gulshan-botnia/ (from https://gulshangroup.com/are-you-looking-for-luxury-lets-do-it-gulshan-style/)
-11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2931
-11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=2931 to https://gulshangroup.com/4-reasons-to-invest-in-noida-sector-144/
-11:35:43	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2940
-11:35:43	Warning: 	File has moved from https://gulshangroup.com/?p=2940 to https://gulshangroup.com/enjoy-the-perfect-lifestyle-at-the-perfect-price/
-11:35:43	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2939
-11:35:43	Warning: 	File has moved from https://gulshangroup.com/?p=2939 to https://gulshangroup.com/experience-luxury-lifestyle-at-noida/
-11:35:43	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2938
-11:35:43	Warning: 	File has moved from https://gulshangroup.com/?p=2938 to https://gulshangroup.com/home-decor-trends-for-2018/
-11:35:43	Warning: 	Moved Permanently for https://gulshangroup.com/?p=1521
-11:35:43	Warning: 	File has moved from https://gulshangroup.com/?p=1521 to https://gulshangroup.com/an-incredible-life-awaits-you-at-gulshan-botnia-take-a-look/
-11:35:43	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2937
-11:35:43	Warning: 	File has moved from https://gulshangroup.com/?p=2937 to https://gulshangroup.com/timely-project-delivery-is-the-signature-of-gulshan-homz/
-11:35:43	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2936
-11:35:43	Warning: 	File has moved from https://gulshangroup.com/?p=2936 to https://gulshangroup.com/delhi-gets-full-time-regulatory-under-rera-heres-how-it-benefits-you/
-11:35:43	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2935
-11:35:43	Warning: 	File has moved from https://gulshangroup.com/?p=2935 to https://gulshangroup.com/luxury-apartment-checklist/
-11:35:44	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2934
-11:35:44	Warning: 	File has moved from https://gulshangroup.com/?p=2934 to https://gulshangroup.com/4-advantages-of-buying-luxury-flats-right-now/
-11:35:44	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2933
-11:35:44	Warning: 	File has moved from https://gulshangroup.com/?p=2933 to https://gulshangroup.com/your-new-home-requires-the-technology-of-future/
-11:35:45	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2932
-11:35:45	Warning: 	File has moved from https://gulshangroup.com/?p=2932 to https://gulshangroup.com/why-you-should-invest-in-real-estate-today/
-11:35:45	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2930
-11:35:45	Warning: 	File has moved from https://gulshangroup.com/?p=2930 to https://gulshangroup.com/gulshan-homz-gets-recognized-for-extraordinary-work/
-11:35:45	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2929
-11:35:45	Warning: 	File has moved from https://gulshangroup.com/?p=2929 to https://gulshangroup.com/remedial-steps-by-noida-authority-for-landfill-site-at-sector-145/
-11:35:45	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2928
-11:35:45	Warning: 	File has moved from https://gulshangroup.com/?p=2928 to https://gulshangroup.com/gulshan-homz-sponsoring-the-night-run-marathon/
-11:35:45	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2927
-11:35:45	Warning: 	File has moved from https://gulshangroup.com/?p=2927 to https://gulshangroup.com/why-noida-greater-noida-expressway/
-11:35:45	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2926
-11:35:45	Warning: 	File has moved from https://gulshangroup.com/?p=2926 to https://gulshangroup.com/how-jewar-international-airport-is-going-to-change-noida-forever/
-11:35:46	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2925
-11:35:46	Warning: 	File has moved from https://gulshangroup.com/?p=2925 to https://gulshangroup.com/reinventing-the-concept-of-luxury/
-11:35:46	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2924
-11:35:46	Warning: 	File has moved from https://gulshangroup.com/?p=2924 to https://gulshangroup.com/how-gulshan-homz-is-contributing-to-a-better-planet/
-11:35:46	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2923
-11:35:46	Warning: 	File has moved from https://gulshangroup.com/?p=2923 to https://gulshangroup.com/individual-floor-v-s-apartment-living-which-one-is-better/
-11:35:46	Warning: 	Moved Permanently for https://gulshangroup.com/?p=1466
-11:35:46	Warning: 	File has moved from https://gulshangroup.com/?p=1466 to https://gulshangroup.com/pm-set-to-lay-foundation-stone-of-jewar-airport/
-11:35:46	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2922
-11:35:46	Warning: 	File has moved from https://gulshangroup.com/?p=2922 to https://gulshangroup.com/we-build-homes-that-we-ourselves-can-live-in/
-11:35:47	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2921
-11:35:47	Warning: 	File has moved from https://gulshangroup.com/?p=2921 to https://gulshangroup.com/a-new-height-noida-part-of-2025-plans-of-the-un/
-11:35:47	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2920
-11:35:47	Warning: 	File has moved from https://gulshangroup.com/?p=2920 to https://gulshangroup.com/choosing-the-right-project-features-that-are-important/
-11:35:47	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2919
-11:35:47	Warning: 	File has moved from https://gulshangroup.com/?p=2919 to https://gulshangroup.com/tips-before-buying-a-vastu-compliant-home/
-11:35:47	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2918
-11:35:47	Warning: 	File has moved from https://gulshangroup.com/?p=2918 to https://gulshangroup.com/misconceptions-of-buying-a-property-in-noida/
-11:35:47	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2917
-11:35:47	Warning: 	File has moved from https://gulshangroup.com/?p=2917 to https://gulshangroup.com/deepak-kapoor-on-home-buyers-stepping-in-to-bail-out-stressed-projects/
-11:35:48	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2916
-11:35:48	Warning: 	File has moved from https://gulshangroup.com/?p=2916 to https://gulshangroup.com/metro-line-from-greater-noida-in-talks/
-11:35:48	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2915
-11:35:48	Warning: 	File has moved from https://gulshangroup.com/?p=2915 to https://gulshangroup.com/lighting-ideas-for-your-new-home/
-11:35:48	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2914
-11:35:48	Warning: 	File has moved from https://gulshangroup.com/?p=2914 to https://gulshangroup.com/yukti-nagpal-director-gulshan-homz-on-women-in-real-estate/
-11:35:48	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2913
-11:35:48	Warning: 	File has moved from https://gulshangroup.com/?p=2913 to https://gulshangroup.com/why-pick-gulshan-botnia-as-your-dream-home/
-11:35:48	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2912
-11:35:48	Warning: 	File has moved from https://gulshangroup.com/?p=2912 to https://gulshangroup.com/customer-experience-at-gulshan-ikebana/
-11:35:49	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2911
-11:35:49	Warning: 	File has moved from https://gulshangroup.com/?p=2911 to https://gulshangroup.com/things-that-make-a-good-home/
-11:35:49	Error: 	"Not Found" (404) at link https://gulshangroup.com/blogs/page/3/t (from https://gulshangroup.com/blogs/page/3/)
-11:35:52	Error: 	"Not Found" (404) at link https://gulshangroup.com/blogs/page/4/t (from https://gulshangroup.com/blogs/page/4/)
-11:35:57	Error: 	"Not Found" (404) at link https://gulshangroup.com/blogs/page/5/t (from https://gulshangroup.com/blogs/page/5/)
-11:36:01	Error: 	"Not Found" (404) at link https://gulshangroup.com/blogs/page/6/t (from https://gulshangroup.com/blogs/page/6/)
-11:36:06	Error: 	"Not Found" (404) at link https://gulshangroup.com/blogs/page/7/t (from https://gulshangroup.com/blogs/page/7/)
-
-HTTrack Website Copier/3.49-2 mirror complete in 7 minutes 27 seconds : 1403 links scanned, 1315 files written (110580121 bytes overall) [86137624 bytes received at 192701 bytes/sec], 35968949 bytes transferred using HTTP compression in 802 files, ratio 25%, 43.3 requests per connection
-(17 errors, 138 warnings, 0 messages)
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 09 May 2024 11:28:39 at https://gulshangroup.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://gulshangroup.com/ -O1 "C:\Users\nisha\OneDrive\Desktop\realty" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+
+
+Information, Warnings and Errors reported for this mirror:
+
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+
+	such as username/password authentication for websites mirrored in this project
+
+	do not share these files/folders if you want these information to remain private
+
+
+
+11:29:04	Error: 	"Not Found" (404) at link https://gulshangroup.com/wp-content/themes/bootscore-child-main/img/favicon/apple-touch-icon.png (from https://gulshangroup.com/)
+
+11:29:05	Error: 	"Not Found" (404) at link https://gulshangroup.com/wp-content/themes/bootscore-child-main/img/favicon/favicon-32x32.png (from https://gulshangroup.com/)
+
+11:29:05	Error: 	"Not Found" (404) at link https://gulshangroup.com/wp-content/themes/bootscore-child-main/img/favicon/favicon-16x16.png (from https://gulshangroup.com/)
+
+11:29:06	Error: 	"Not Found" (404) at link https://gulshangroup.com/wp-content/themes/bootscore-child-main/img/favicon/safari-pinned-tab.svg (from https://gulshangroup.com/)
+
+11:31:33	Error: 	"Not Found" (404) at link https://gulshangroup.com/about-us/ (from https://gulshangroup.com/)
+
+11:31:33	Error: 	"Not Found" (404) at link https://gulshangroup.com/?p=6364 (from https://gulshangroup.com/)
+
+11:31:33	Error: 	"Not Found" (404) at link https://gulshangroup.com/?p=6367 (from https://gulshangroup.com/)
+
+11:32:48	Warning: 	Moved Permanently for https://gulshangroup.com/?p=5952
+
+11:32:48	Warning: 	File has moved from https://gulshangroup.com/?p=5952 to https://gulshangroup.com/testimonial/testimonial-right/
+
+11:32:49	Error: 	"Not Found" (404) at link https://elite-x/projects/residential/t (from https://gulshangroup.com/projects/residential/)
+
+11:32:50	Error: 	"Not Found" (404) at link https://gulshangroup.com/projects/commercial/t (from https://gulshangroup.com/projects/commercial/)
+
+11:32:50	Error: 	"Not Found" (404) at link https://gulshangroup.com/projects/future-plan/t (from https://gulshangroup.com/projects/future-plan/)
+
+11:32:50	Warning: 	Moved Permanently for https://gulshangroup.com/?p=190
+
+11:32:50	Warning: 	File has moved from https://gulshangroup.com/?p=190 to https://gulshangroup.com/contact-us/
+
+11:32:51	Warning: 	Moved Permanently for https://gulshangroup.com/?p=107
+
+11:32:51	Warning: 	File has moved from https://gulshangroup.com/?p=107 to https://gulshangroup.com/about/
+
+11:32:51	Warning: 	Moved Permanently for https://gulshangroup.com/?p=153
+
+11:32:51	Warning: 	File has moved from https://gulshangroup.com/?p=153 to https://gulshangroup.com/meet-the-family/
+
+11:32:52	Warning: 	Moved Permanently for https://gulshangroup.com/?p=495
+
+11:32:52	Warning: 	File has moved from https://gulshangroup.com/?p=495 to https://gulshangroup.com/life-at-gulshan/
+
+11:32:52	Warning: 	Moved Permanently for https://gulshangroup.com/?p=378
+
+11:32:52	Warning: 	File has moved from https://gulshangroup.com/?p=378 to https://gulshangroup.com/careers/
+
+11:32:56	Warning: 	Moved Permanently for https://gulshangroup.com/?p=7030
+
+11:32:56	Warning: 	File has moved from https://gulshangroup.com/?p=7030 to https://gulshangroup.com/awards/
+
+11:33:01	Warning: 	Moved Permanently for https://gulshangroup.com/?p=424
+
+11:33:01	Warning: 	File has moved from https://gulshangroup.com/?p=424 to https://gulshangroup.com/events/
+
+11:33:02	Warning: 	Moved Permanently for https://gulshangroup.com/?p=7111
+
+11:33:02	Warning: 	File has moved from https://gulshangroup.com/?p=7111 to https://gulshangroup.com/in-the-news/
+
+11:33:02	Warning: 	Moved Permanently for https://gulshangroup.com/?p=474
+
+11:33:02	Warning: 	File has moved from https://gulshangroup.com/?p=474 to https://gulshangroup.com/nri/
+
+11:33:03	Warning: 	Moved Permanently for https://gulshangroup.com/?p=8352
+
+11:33:03	Warning: 	File has moved from https://gulshangroup.com/?p=8352 to https://gulshangroup.com/gulshan-avante-a-forward-life/
+
+11:35:36	Warning: 	Moved Permanently for https://gulshangroup.com/?p=8349
+
+11:35:36	Warning: 	File has moved from https://gulshangroup.com/?p=8349 to https://gulshangroup.com/celebrating-excellence-gulshan-dynasty-attains-completion-certificate/
+
+11:35:36	Warning: 	Moved Permanently for https://gulshangroup.com/?p=8342
+
+11:35:36	Warning: 	File has moved from https://gulshangroup.com/?p=8342 to https://gulshangroup.com/gulshan-dynasty-the-epitome-of-luxury-living/
+
+11:35:37	Warning: 	Moved Permanently for https://gulshangroup.com/?p=8310
+
+11:35:37	Warning: 	File has moved from https://gulshangroup.com/?p=8310 to https://gulshangroup.com/holistic-living-luxury-housing-redefined-for-wellness-in-delhi-ncr/
+
+11:35:37	Warning: 	Moved Permanently for https://gulshangroup.com/?p=8307
+
+11:35:37	Warning: 	File has moved from https://gulshangroup.com/?p=8307 to https://gulshangroup.com/elevating-luxury-living-the-essence-of-community-harmony/
+
+11:35:37	Warning: 	Moved Permanently for https://gulshangroup.com/?p=8302
+
+11:35:37	Warning: 	File has moved from https://gulshangroup.com/?p=8302 to https://gulshangroup.com/essentials-of-merchandising-luxury-living/
+
+11:35:37	Warning: 	Moved Permanently for https://gulshangroup.com/?p=531
+
+11:35:37	Warning: 	File has moved from https://gulshangroup.com/?p=531 to https://gulshangroup.com/csr/
+
+11:35:37	Warning: 	Moved Permanently for https://gulshangroup.com/?p=362
+
+11:35:37	Warning: 	File has moved from https://gulshangroup.com/?p=362 to https://gulshangroup.com/faqs/
+
+11:35:37	Warning: 	Moved Permanently for https://gulshangroup.com/?p=1105
+
+11:35:37	Warning: 	File has moved from https://gulshangroup.com/?p=1105 to https://gulshangroup.com/privacy-policy/
+
+11:35:37	Warning: 	Moved Permanently for https://gulshangroup.com/?p=6106
+
+11:35:37	Warning: 	File has moved from https://gulshangroup.com/?p=6106 to https://gulshangroup.com/disclaimer/
+
+11:35:37	Warning: 	Moved Permanently for https://gulshangroup.com/?p=7070
+
+11:35:37	Warning: 	File has moved from https://gulshangroup.com/?p=7070 to https://gulshangroup.com/awards/the-times-group-et-leadership-excellence/
+
+11:35:38	Error: 	"Not Found" (404) at link https://gulshangroup.com/blogs/page/2/t (from https://gulshangroup.com/blogs/page/2/)
+
+11:35:41	Warning: 	Moved Permanently for https://gulshangroup.com/?p=8247
+
+11:35:41	Warning: 	File has moved from https://gulshangroup.com/?p=8247 to https://gulshangroup.com/chica-loca-by-sunny-leone-a-culinary-extravaganza-unveiled-on-20-jan-24/
+
+11:35:41	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3519
+
+11:35:41	Warning: 	File has moved from https://gulshangroup.com/?p=3519 to https://gulshangroup.com/home-decor-trends-to-bring-the-best-of-your-luxurious-home-in-2023/
+
+11:35:41	Warning: 	Moved Permanently for https://gulshangroup.com/?p=92
+
+11:35:41	Warning: 	File has moved from https://gulshangroup.com/?p=92 to https://gulshangroup.com/gulshan-botnia-community/
+
+11:35:41	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3463
+
+11:35:41	Warning: 	File has moved from https://gulshangroup.com/?p=3463 to https://gulshangroup.com/checklist-for-the-home-buyer/
+
+11:35:41	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3465
+
+11:35:41	Warning: 	File has moved from https://gulshangroup.com/?p=3465 to https://gulshangroup.com/luxury-appreciating-the-unnoticed-details-not-splurging-on-extravagance/
+
+11:35:41	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3444
+
+11:35:41	Warning: 	File has moved from https://gulshangroup.com/?p=3444 to https://gulshangroup.com/gulshan-a-journey-of-excellence/
+
+11:35:41	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3369
+
+11:35:41	Warning: 	File has moved from https://gulshangroup.com/?p=3369 to https://gulshangroup.com/gulshan-group-marks-a-legacy-of-excellence/
+
+11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3344
+
+11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=3344 to https://gulshangroup.com/5-things-to-keep-in-mind-while-looking-for-a-house-in-noida/
+
+11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3153
+
+11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=3153 to https://gulshangroup.com/high-demand-for-ready-to-move-in-homes/
+
+11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3442
+
+11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=3442 to https://gulshangroup.com/gulshan-botnia-a-perfect-place-to-live/
+
+11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3440
+
+11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=3440 to https://gulshangroup.com/benefits-of-living-on-the-top-floor-2/
+
+11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=3028
+
+11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=3028 to https://gulshangroup.com/what-are-a-few-amenities-that-make-a-residential-project-luxurious/
+
+11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2943
+
+11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=2943 to https://gulshangroup.com/holistic-wellness-redefining-luxury/
+
+11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2942
+
+11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=2942 to https://gulshangroup.com/real-estate-marketing-trends-to-watch-out-for/
+
+11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2195
+
+11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=2195 to https://gulshangroup.com/what-makes-noida-expressway-the-preferred-choice-for-homebuyers-in-delhi-ncr/
+
+11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2200
+
+11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=2200 to https://gulshangroup.com/are-you-looking-for-luxury-lets-do-it-gulshan-style/
+
+11:35:42	Error: 	"Not Found" (404) at link https://gulshangroup.com/projects/gulshan-botnia/ (from https://gulshangroup.com/are-you-looking-for-luxury-lets-do-it-gulshan-style/)
+
+11:35:42	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2931
+
+11:35:42	Warning: 	File has moved from https://gulshangroup.com/?p=2931 to https://gulshangroup.com/4-reasons-to-invest-in-noida-sector-144/
+
+11:35:43	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2940
+
+11:35:43	Warning: 	File has moved from https://gulshangroup.com/?p=2940 to https://gulshangroup.com/enjoy-the-perfect-lifestyle-at-the-perfect-price/
+
+11:35:43	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2939
+
+11:35:43	Warning: 	File has moved from https://gulshangroup.com/?p=2939 to https://gulshangroup.com/experience-luxury-lifestyle-at-noida/
+
+11:35:43	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2938
+
+11:35:43	Warning: 	File has moved from https://gulshangroup.com/?p=2938 to https://gulshangroup.com/home-decor-trends-for-2018/
+
+11:35:43	Warning: 	Moved Permanently for https://gulshangroup.com/?p=1521
+
+11:35:43	Warning: 	File has moved from https://gulshangroup.com/?p=1521 to https://gulshangroup.com/an-incredible-life-awaits-you-at-gulshan-botnia-take-a-look/
+
+11:35:43	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2937
+
+11:35:43	Warning: 	File has moved from https://gulshangroup.com/?p=2937 to https://gulshangroup.com/timely-project-delivery-is-the-signature-of-gulshan-homz/
+
+11:35:43	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2936
+
+11:35:43	Warning: 	File has moved from https://gulshangroup.com/?p=2936 to https://gulshangroup.com/delhi-gets-full-time-regulatory-under-rera-heres-how-it-benefits-you/
+
+11:35:43	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2935
+
+11:35:43	Warning: 	File has moved from https://gulshangroup.com/?p=2935 to https://gulshangroup.com/luxury-apartment-checklist/
+
+11:35:44	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2934
+
+11:35:44	Warning: 	File has moved from https://gulshangroup.com/?p=2934 to https://gulshangroup.com/4-advantages-of-buying-luxury-flats-right-now/
+
+11:35:44	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2933
+
+11:35:44	Warning: 	File has moved from https://gulshangroup.com/?p=2933 to https://gulshangroup.com/your-new-home-requires-the-technology-of-future/
+
+11:35:45	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2932
+
+11:35:45	Warning: 	File has moved from https://gulshangroup.com/?p=2932 to https://gulshangroup.com/why-you-should-invest-in-real-estate-today/
+
+11:35:45	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2930
+
+11:35:45	Warning: 	File has moved from https://gulshangroup.com/?p=2930 to https://gulshangroup.com/gulshan-homz-gets-recognized-for-extraordinary-work/
+
+11:35:45	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2929
+
+11:35:45	Warning: 	File has moved from https://gulshangroup.com/?p=2929 to https://gulshangroup.com/remedial-steps-by-noida-authority-for-landfill-site-at-sector-145/
+
+11:35:45	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2928
+
+11:35:45	Warning: 	File has moved from https://gulshangroup.com/?p=2928 to https://gulshangroup.com/gulshan-homz-sponsoring-the-night-run-marathon/
+
+11:35:45	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2927
+
+11:35:45	Warning: 	File has moved from https://gulshangroup.com/?p=2927 to https://gulshangroup.com/why-noida-greater-noida-expressway/
+
+11:35:45	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2926
+
+11:35:45	Warning: 	File has moved from https://gulshangroup.com/?p=2926 to https://gulshangroup.com/how-jewar-international-airport-is-going-to-change-noida-forever/
+
+11:35:46	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2925
+
+11:35:46	Warning: 	File has moved from https://gulshangroup.com/?p=2925 to https://gulshangroup.com/reinventing-the-concept-of-luxury/
+
+11:35:46	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2924
+
+11:35:46	Warning: 	File has moved from https://gulshangroup.com/?p=2924 to https://gulshangroup.com/how-gulshan-homz-is-contributing-to-a-better-planet/
+
+11:35:46	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2923
+
+11:35:46	Warning: 	File has moved from https://gulshangroup.com/?p=2923 to https://gulshangroup.com/individual-floor-v-s-apartment-living-which-one-is-better/
+
+11:35:46	Warning: 	Moved Permanently for https://gulshangroup.com/?p=1466
+
+11:35:46	Warning: 	File has moved from https://gulshangroup.com/?p=1466 to https://gulshangroup.com/pm-set-to-lay-foundation-stone-of-jewar-airport/
+
+11:35:46	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2922
+
+11:35:46	Warning: 	File has moved from https://gulshangroup.com/?p=2922 to https://gulshangroup.com/we-build-homes-that-we-ourselves-can-live-in/
+
+11:35:47	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2921
+
+11:35:47	Warning: 	File has moved from https://gulshangroup.com/?p=2921 to https://gulshangroup.com/a-new-height-noida-part-of-2025-plans-of-the-un/
+
+11:35:47	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2920
+
+11:35:47	Warning: 	File has moved from https://gulshangroup.com/?p=2920 to https://gulshangroup.com/choosing-the-right-project-features-that-are-important/
+
+11:35:47	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2919
+
+11:35:47	Warning: 	File has moved from https://gulshangroup.com/?p=2919 to https://gulshangroup.com/tips-before-buying-a-vastu-compliant-home/
+
+11:35:47	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2918
+
+11:35:47	Warning: 	File has moved from https://gulshangroup.com/?p=2918 to https://gulshangroup.com/misconceptions-of-buying-a-property-in-noida/
+
+11:35:47	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2917
+
+11:35:47	Warning: 	File has moved from https://gulshangroup.com/?p=2917 to https://gulshangroup.com/deepak-kapoor-on-home-buyers-stepping-in-to-bail-out-stressed-projects/
+
+11:35:48	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2916
+
+11:35:48	Warning: 	File has moved from https://gulshangroup.com/?p=2916 to https://gulshangroup.com/metro-line-from-greater-noida-in-talks/
+
+11:35:48	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2915
+
+11:35:48	Warning: 	File has moved from https://gulshangroup.com/?p=2915 to https://gulshangroup.com/lighting-ideas-for-your-new-home/
+
+11:35:48	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2914
+
+11:35:48	Warning: 	File has moved from https://gulshangroup.com/?p=2914 to https://gulshangroup.com/yukti-nagpal-director-gulshan-homz-on-women-in-real-estate/
+
+11:35:48	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2913
+
+11:35:48	Warning: 	File has moved from https://gulshangroup.com/?p=2913 to https://gulshangroup.com/why-pick-gulshan-botnia-as-your-dream-home/
+
+11:35:48	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2912
+
+11:35:48	Warning: 	File has moved from https://gulshangroup.com/?p=2912 to https://gulshangroup.com/customer-experience-at-gulshan-ikebana/
+
+11:35:49	Warning: 	Moved Permanently for https://gulshangroup.com/?p=2911
+
+11:35:49	Warning: 	File has moved from https://gulshangroup.com/?p=2911 to https://gulshangroup.com/things-that-make-a-good-home/
+
+11:35:49	Error: 	"Not Found" (404) at link https://gulshangroup.com/blogs/page/3/t (from https://gulshangroup.com/blogs/page/3/)
+
+11:35:52	Error: 	"Not Found" (404) at link https://gulshangroup.com/blogs/page/4/t (from https://gulshangroup.com/blogs/page/4/)
+
+11:35:57	Error: 	"Not Found" (404) at link https://gulshangroup.com/blogs/page/5/t (from https://gulshangroup.com/blogs/page/5/)
+
+11:36:01	Error: 	"Not Found" (404) at link https://gulshangroup.com/blogs/page/6/t (from https://gulshangroup.com/blogs/page/6/)
+
+11:36:06	Error: 	"Not Found" (404) at link https://gulshangroup.com/blogs/page/7/t (from https://gulshangroup.com/blogs/page/7/)
+
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 7 minutes 27 seconds : 1403 links scanned, 1315 files written (110580121 bytes overall) [86137624 bytes received at 192701 bytes/sec], 35968949 bytes transferred using HTTP compression in 802 files, ratio 25%, 43.3 requests per connection
+
+(17 errors, 138 warnings, 0 messages)
+

@@ -153,6 +153,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
   </style>
   <style id='global-styles-inline-css' type='text/css'>
     body {
+  
       --wp--preset--color--black: #000000;
       --wp--preset--color--cyan-bluish-gray: #abb8c3;
       --wp--preset--color--white: #ffffff;
@@ -573,7 +574,9 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
       display: none
     }
     .form-block {
-    background: transparent;
+            display: none;
+
+      background-color: rgba(255, 255, 255, 0.7); 
     border-radius: 6px;
     -webkit-box-shadow: 0 3px 6px rgba(194, 208, 214, 0.08);
     box-shadow: 0 3px 6px rgb(91 130 148 / 8%);
@@ -594,6 +597,19 @@ width: 80%;
     right: 9%;
   }
 }
+.form-block {
+      display: none;
+    }
+    .btn-show-form {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ba6f53;
+      color: white;
+      text-align: center;
+      cursor: pointer;
+      border: none;
+      font-size: 1em;
+    }
 .form-group input[type="text"],[type="tel"] ,[type="email"]{
  border-radius: 5px;
  padding: 5px;
@@ -623,6 +639,11 @@ width: 80%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    width:100%;
+    overflow: auto;
+    }
+    .phone-number{
+      font-size: 12px;
     }
   </style>
   <link rel="icon" href="../../wp-content/uploads/2023/09/cropped-loogo-1-1-1-32x32.webp" sizes="32x32" />
@@ -778,14 +799,13 @@ width: 80%;
   <div id="page" class="site">
 
     <header id="masthead" class="site-header">
-      <div class="container-fluid" style="background-color:#ba6f53 !important; height: 30px; color: white;">
+      <div class="container-fluid d-flex" style="background-color:#ba6f53 !important; height: 30px; color: white;">
         <div class="container">
           <div class="row align-items-center h-100">
-            <div class="col-lg-4 d-flex justify-content-between align-items-center mt-1">
-              <div><i class="fas fa-phone-alt"></i> 9213331222</div>
-              <div><i class="fas fa-envelope"></i> enquire@elitegroup.co</div>
-              <div><i class="fab fa-facebook"></i></div>
-              <div><i class="fab fa-instagram"></i></div>
+            <div class="col-lg-3 col-md-5 col-sm-6 col-12 d-flex justify-content-between align-items-center mt-0">
+              <div class="text-center phone-number"><i class="fas fa-phone-alt"></i> 9213331222</div>
+              <div class="text-center phone-number mail"><i class="fas fa-envelope"></i> enquire@elitegroup.co</div>
+      
             </div>
           </div>
         </div>
@@ -818,10 +838,9 @@ width: 80%;
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-navbar">
           <div class="offcanvas-header">
             <span><a class="mobile-navbar-brand px-3" href="../../index.html"><img width="1846" height="652"
-                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201846%20652'%3E%3C/svg%3E"
-                  alt="logo" class="logo xs"
-                  data-lazy-src="/wp-content/uploads/2023/09/Logo_Coloured.webp"><noscript><img width="1846"
-                    height="652" src="../../wp-content/uploads/2023/09/Logo_Coloured.webp" alt="logo"
+                  src="/images/elite.png"
+                 src="/images/elite.png"><noscript><img width="1846"
+                    height="652" src="/images/elite.png" alt="logo"
                     class="logo xs"></noscript></a></span>
             <button type="button" class="btn-close text-reset btn-close-dark" data-bs-dismiss="offcanvas"
               aria-label="Close"></button>
@@ -833,16 +852,13 @@ width: 80%;
             <ul id="bootscore-navbar" class="navbar-nav ms-auto ">
               <li id="menu-item-5174"
                 class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-5174">
-                <a href="#">About US</a>
-                <ul class="sub-menu">
-                  <li id="menu-item-8159"
-                    class="menu-item menu-item-type-taxonomy menu-item-object-projects current-menu-item menu-item-8159">
-                    <a href="index.html" aria-current="page">Residential</a></li>
-                 
-                </ul>
+                <a href="index.html">About US</a>
+              
               </li>
               <li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266"><a
-                  href="#myform">Contact us </a></li>
+                  href="gulshangroup.com/contact-us/index.html">Contact us </a></li>
+                  <li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-267"><a
+                  href="../../faqs/index.html">FAQ's </a></li>
             </ul>
 
             <ul id="sidebar-navbar" class="d-block d-md-none  navbar-nav ms-auto ">
@@ -851,88 +867,45 @@ width: 80%;
                 <a href="" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">ABOUT</a>
                 <ul class="dropdown-menu  depth_0">
-                  <li id="menu-item-5302"
-                    class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-5302"><a
-                      href="" class="dropdown-item ">COMPANY</a></li>
-                  <li id="menu-item-5127"
-                    class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-5127"><a
-                      href="" class="dropdown-item ">G FRATERNITY</a></li>
-                  <li id="menu-item-5128"
-                    class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-5128"><a
-                      href="" class="dropdown-item ">G LIFE</a></li>
-                  <li id="menu-item-8055"
-                    class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-8055"><a
-                      href="" class="dropdown-item ">CAREERS</a></li>
+               
+               
+           
                 </ul>
               </li>
               <li id="menu-item-6736"
                 class="menu-item menu-item-type-taxonomy menu-item-object-projects current-menu-item nav-item nav-item-6736">
                 <a href="index.html" class="nav-link active">RESIDENTIAL</a></li>
-              <li id="menu-item-6737"
-                class="menu-item menu-item-type-taxonomy menu-item-object-projects nav-item nav-item-6737"><a
-                  href="" class="nav-link ">COMMERCIAL</a></li>
-              <li id="menu-item-7050"
-                class="menu-item menu-item-type-taxonomy menu-item-object-projects nav-item nav-item-7050"><a
-                  href="" class="nav-link ">FUTURE PLAN</a></li>
-              <li id="menu-item-8301"
-                class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-8301"><a
-                  href="" class="nav-link ">AWARDS</a></li>
-              <li id="menu-item-6176"
-                class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent nav-item nav-item-6176">
-                <a href="" class="nav-link active">BLOGS</a></li>
-              <li id="menu-item-6177"
-                class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-6177"><a
-                  href="" class="nav-link ">EVENTS</a></li>
-              <li id="menu-item-7998"
-                class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-7998"><a
-                  href="" class="nav-link ">IN THE NEWS</a></li>
-              <li id="menu-item-6156"
-                class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-6156"><a
-                  href="" class="nav-link ">NRI</a></li>
+      
+           
+            
+            
+          
+        
+            
               <li id="menu-item-6157"
                 class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-6157"><a
                   href="" class="nav-link ">CONTACT US</a></li>
             </ul>
             <ul id="bootscore-navbar-1" class="navbar-nav ms-auto mobile_menu">
-              <li id="menu-item-1737"
-                class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-1737"><a
-                  href="" class="nav-link ">ABOUT US</a></li>
-              <li id="menu-item-5370"
-                class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-5370"><a
-                  href="" class="nav-link ">ABOUT COMPANY</a></li>
-              <li id="menu-item-1750"
-                class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-1750"><a
-                  href="" class="nav-link ">G FRATERNITY</a></li>
-              <li id="menu-item-1746"
-                class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-1746"><a
-                  href="" class="nav-link ">G LIFE</a></li>
-              <li id="menu-item-8056"
-                class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-8056"><a
-                  href="" class="nav-link ">CAREERS</a></li>
+            
+         
+         
+            
+            
               <li id="menu-item-8162"
                 class="menu-item menu-item-type-taxonomy menu-item-object-projects current-menu-item nav-item nav-item-8162">
-                <a href="" class="nav-link active">RESIDENTIAL</a></li>
-              <li id="menu-item-8163"
-                class="menu-item menu-item-type-taxonomy menu-item-object-projects nav-item nav-item-8163"><a
-                  href="" class="nav-link ">COMMERCIAL</a></li>
-              <li id="menu-item-8164"
-                class="menu-item menu-item-type-taxonomy menu-item-object-projects nav-item nav-item-8164"><a
-                  href="" class="nav-link ">FUTURE PLAN</a></li>
-              <li id="menu-item-1736"
-                class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent nav-item nav-item-1736">
-                <a href="" class="nav-link active">ARTICLES</a></li>
-              <li id="menu-item-7440"
-                class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-7440"><a
-                  href="" class="nav-link ">EVENTS</a></li>
-              <li id="menu-item-7996"
-                class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-7996"><a
-                  href="" class="nav-link ">IN THE NEWS</a></li>
-              <li id="menu-item-6294"
-                class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-6294"><a
-                  href="" class="nav-link ">NRI</a></li>
-              <li id="menu-item-1738"
-                class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-1738"><a
-                  href="" class="nav-link ">CONTACT US</a></li>
+                <a href="" class="nav-link active">ABOUT US</a></li>
+         
+        
+      
+       
+            
+                <li id="menu-item-8162"
+                class="menu-item menu-item-type-taxonomy menu-item-object-projects current-menu-item nav-item nav-item-8162">
+                <a href="" class="nav-link active">CONTACT US</a></li>
+                <li id="menu-item-8162"
+                class="menu-item menu-item-type-taxonomy menu-item-object-projects current-menu-item nav-item nav-item-8162">
+                <a href="../../faqs/index.html" class="nav-link active">FAQ's</a></li>
             </ul>
 
             <a class="nav-link text-center position-relative ms-4" href="javascript:;">
@@ -958,41 +931,16 @@ width: 80%;
                   </div>
                 </div>
                 <ul id="sidebar-navbar" class="pt-4 px-4 navbar-nav ms-auto ">
-                  <li
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown nav-item nav-item-5123">
-                    <a href="" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown"
-                      aria-haspopup="true" aria-expanded="false">ABOUT</a>
-                    <ul class="dropdown-menu  depth_0">
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-5302"><a
-                          href="" class="dropdown-item ">COMPANY</a></li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-5127"><a
-                          href="" class="dropdown-item ">G FRATERNITY</a></li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-5128"><a
-                          href="" class="dropdown-item ">G LIFE</a></li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-8055"><a
-                          href="" class="dropdown-item ">CAREERS</a></li>
-                    </ul>
-                  </li>
+                
                   <li
                     class="menu-item menu-item-type-taxonomy menu-item-object-projects current-menu-item nav-item nav-item-6736">
-                    <a href="" class="nav-link active">RESIDENTIAL</a></li>
-                  <li class="menu-item menu-item-type-taxonomy menu-item-object-projects nav-item nav-item-6737"><a
-                      href="" class="nav-link ">COMMERCIAL</a></li>
-                  <li class="menu-item menu-item-type-taxonomy menu-item-object-projects nav-item nav-item-7050"><a
-                      href="" class="nav-link ">FUTURE PLAN</a></li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-8301"><a
-                      href="" class="nav-link ">AWARDS</a></li>
-                  <li
-                    class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent nav-item nav-item-6176">
-                    <a href="" class="nav-link active">BLOGS</a></li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-6177"><a
-                      href="" class="nav-link ">EVENTS</a></li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-7998"><a
-                      href="" class="nav-link ">IN THE NEWS</a></li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-6156"><a
-                      href="" class="nav-link ">NRI</a></li>
+                    <a href="" class="nav-link active">ABOUT US</a></li>
+            
+           
                   <li class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-6157"><a
                       href="" class="nav-link ">CONTACT US</a></li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-6157"><a
+                      href="../../faqs/index.html" class="nav-link ">FAQ's</a></li>
                 </ul>
                 <div class="footer-socials d-flex pt-4 sidebara-logo justify-content-start">
                   <a href="" target="_blank" class="text-dark me-3"
@@ -1009,11 +957,11 @@ width: 80%;
 
             </div>
             <div class="footer-socials d-flex pt-4 sidebara-logo d-lg-none d-block position-absolute bottom-0 ">
-              <a href="https://www.instagram.com/gulshangroupofficial/" target="_blank" class="text-dark me-3"
+              <a href="" target="_blank" class="text-dark me-3"
                 title="Instagram" rel="noopener"><i class="fa fa-instagram text-dark"></i></a>
-              <a href="https://www.youtube.com/c/GulshanHomz1" target="_blank" class="text-dark me-3" title="youtube"
+              <a href="" target="_blank" class="text-dark me-3" title="youtube"
                 rel="noopener"><i class="fa fa-youtube-play text-dark" aria-hidden="true"></i></a>
-              <a href="https://www.linkedin.com/company/gulshan-homz/" target="_blank" class="text-dark  me-3"
+              <a href="" target="_blank" class="text-dark  me-3"
                 title="Linkedin" rel="noopener"><i class="fa fa-linkedin-square text-dark"></i></a>
               <a href="https://www.facebook.com/GulshanGroupofficial/" target="_blank" class="text-dark"
                 title="Facebook" rel="noopener"><i class="fa fa-facebook text-dark" aria-hidden="true"></i></a>
@@ -1152,16 +1100,17 @@ width: 80%;
           </div>
         </div>
   </section>
-  <div class="gs-project-single-page gs-project-listing-page bg-dark">
+  <div class="gs-project-single-page gs-project-listing-page bg-dark w-100 overflow-hidden">
     <section>
       <div class="row">
         <div class="container-fluid p-0">
           
          <div class="col-lg-12" style="position: relative;">
-          <div class="background_banner">
+          <div class="background_banner" >
         <noscript>
           <img width="2200" height="917" src="/images/elite-bg.webp" alt="Gulshan Group Residential" />
         </noscript>
+
         <div class="text-center careers-header-text title-text-color position-absolute text-overlay" style="position: absolute;
       top: 55%;
       left: 50%;
@@ -1172,9 +1121,14 @@ width: 80%;
           <h1 style="margin: 0; font-size: 2.4em; color: #ffffff;">Elite X</h1>
           <p style="margin: 0; font-size: 0.34em; color: #ffffff;">YOUR HOME WITH AN OOMPH!</p>
         </div>
+        <div class="text-center mt-4">
+    <button class="btn-show-form position-absolute " style="top: 25%; right: 0%; border-radius: 8px; height: 100px; font-size: 20px; text-overflow: ellipsis; background: linear-gradient(to top, #ba6f53, white);
+" > < </button>
+  </div>
         </div>
         </div>
-        <div class="mt-5 pt-5">
+ 
+        <div class="mt-0 pt-0">
   <div class="form-block p-4" id="myform">
   <div class="logo text-center">
     <img src="/images/contact-logo.jpg" alt="Your Logo">
@@ -1218,7 +1172,7 @@ width: 80%;
 
             <div class="gs-heading gs-heading3 position-relative text-center">
               <!--<p class="text-color-dblue mb-1 mb-md-4 text-uppercase"></p>-->
-              <h2 class="text-center px-md-5 pb-md-1 pb-2 pt-3 experience-text">About   <span style="color: #ba6f53">EliteX  </span> Project
+              <h2 class="text-center px-md-5 pb-md-1 pb-2 pt-3 experience-text" style="color: #000000;">About   <span style="color: #ba6f53">EliteX  </span> Project
               </h2>
               <p class="listing-banner-text p-0 m-0">
               <p>Welcome to <b>Elite X Sector 10 Noida Extension</b> - A heaven of luxury brought to you by the
@@ -1265,7 +1219,7 @@ width: 80%;
         <div class="position-relative pb-md-5 pb-3">
 
 
-          <a href="https://www.gulshandynasty.com/moradabad/" target="_blank">
+          <a href="" target="_blank">
             <div class="ad-img"><img width="1920" height="840" src="/images/elite2.jpg" class="w-100 img-fluid"
                 src="/images/elite2.jpg"><noscript><img width="1920" height="840" src="/images/elite2.jpg"
                   class="w-100 img-fluid"></noscript></div>
@@ -1278,8 +1232,8 @@ width: 80%;
           <div class="row position-relative px-3 ms-lg-1 px-md-4 px-lg-0 pb-md-5 justify-content-between">
 
             <div class="col-md-12 col-lg-8 ps-lg-4 m-0">
-              <div class="project-heading gs-heading2 text-start ps-lg-3">
-                <h2 class="text-color-gold text-color-dblue m-0 gulasan_botnia text-capitalize text-color-blue"
+              <div class="project-heading gs-heading2 ps-lg-3 text-md-center text-lg-start text-center">
+                <h2 class="text-color-gold text-color-dblue m-0 gulasan_botnia text-capitalize text-color-blue "
                   style="font-size: 25px;">Unlock the X of Xtraordinary Living With <span style="color: #ba6f53">EliteX  </span> Homes
                 </h2>
 
@@ -1338,10 +1292,7 @@ width: 80%;
     <div class="row justify-content-center position-relative">
       <div class="col-md-12">
         <div class="position-relative pb-md-5 pb-3">
-          <div class="gs-button gs-blog-btn featured">
-            <a href="#" class="text-decoration-none avenir-font position-absolute"
-              style="background-color:#1D3956;color:#fff;pointer-events: none;">Possession soon </a>
-          </div>
+    
 
             <div class="ad-img"><img width="1024" height="546"
                 src="/images/elitebg.webp"
@@ -1357,7 +1308,7 @@ width: 80%;
           <div class="row position-relative px-3 ms-lg-1 px-md-4 px-lg-0 pb-md-5 justify-content-between">
 
             <div class="col-md-12 col-lg-8 ps-lg-4 m-0">
-              <div class="project-heading gs-heading2 text-start ps-lg-3">
+              <div class="project-heading gs-heading2 ps-lg-3 text-md-center text-lg-start text-center">
                 <h2 class="text-color-gold text-color-dblue m-0 gulasan_botnia text-capitalize text-color-blue"
                   style="font-size: 20px;">Discover the Exquisite Lifestyle at <span style="color: #ba6f53">EliteX  </span> Sector 10 Noida Extension
                 </h2>
@@ -1418,17 +1369,14 @@ width: 80%;
     <div class="row justify-content-center position-relative">
       <div class="col-md-12">
         <div class="position-relative pb-md-5 pb-3">
-          <div class="gs-button gs-blog-btn featured">
-            <a href="#" class="text-decoration-none avenir-font position-absolute"
-              style="background-color:#1D3956;color:#fff;pointer-events: none;">Under construction </a>
-          </div>
+       
 
-          <a href="https://www.gulshangroup.com/avante/overview.php" target="_blank">
+          <a href="" target="_blank">
             <div class="ad-img"><img width="2200" height="1174"
-                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202200%201174'%3E%3C/svg%3E"
+                src="/images/bedroom.webp"
                 class="w-100 img-fluid"
-                data-lazy-src="../../wp-content/uploads/2023/07/Avante-3-scaled.webp"><noscript><img width="2200"
-                  height="1174" src="../../wp-content/uploads/2023/07/Avante-3-scaled.webp"
+                src="/images/bedroom.webp"><noscript><img width="2200"
+                  height="1174" src="/images/bedroom.webp"
                   class="w-100 img-fluid"></noscript></div>
           </a>
 
@@ -1439,7 +1387,7 @@ width: 80%;
           <div class="row position-relative px-3 ms-lg-1 px-md-4 px-lg-0 pb-md-5 justify-content-between">
 
             <div class="col-md-12 col-lg-8 ps-lg-4 m-0">
-              <div class="project-heading gs-heading2 text-start ps-lg-3">
+              <div class="project-heading gs-heading2 ps-lg-3 text-md-center text-lg-start text-center">
                 <h2 class="text-color-gold text-color-dblue m-0 gulasan_botnia text-capitalize text-color-blue"
                   style="font-size: 20px;">Structure Of <span style="color: #ba6f53">EliteX  </span> Sector 10 Noida Extension
                 </h2>
@@ -1490,7 +1438,7 @@ width: 80%;
           <div class="row position-relative px-3 ms-lg-1 px-md-4 px-lg-0 pb-md-5 justify-content-between">
 
             <div class="col-md-12 col-lg-8 ps-lg-4 m-0 ">
-              <div class="project-heading gs-heading2 text-start ps-lg-3">
+              <div class="project-heading gs-heading2 ps-lg-3 text-md-center text-lg-start text-center">
                 <h2 class="text-color-gold text-color-dblue m-0 gulasan_botnia text-capitalize text-color-blue"
                   style="font-size: 20px;">Elegant Flooring Solutions for Elite Living in <span style="color: #ba6f53">EliteX  </span> Noida Extension
 
@@ -1545,7 +1493,7 @@ width: 80%;
           <div class="row position-relative px-3 ms-lg-1 px-md-4 px-lg-0 pb-md-5 justify-content-between">
 
             <div class="col-md-12 col-lg-8 ps-lg-4 m-0">
-              <div class="project-heading gs-heading2 text-start ps-lg-3">
+              <div class="project-heading gs-heading2 ps-lg-3 text-md-center text-lg-start text-center">
                 <h2 class="text-color-gold text-color-dblue m-0 gulasan_botnia text-capitalize text-color-blue"
                   style="font-size: 20px;">Walls & Exterior Of <span style="color: #ba6f53">EliteX  </span>Sector 10 Greater Noida
 
@@ -1604,8 +1552,8 @@ width: 80%;
           <div class="row position-relative px-3 ms-lg-1 px-md-4 px-lg-0 pb-md-5 justify-content-between">
 
             <div class="col-md-12 col-lg-8 ps-lg-4 m-0">
-              <div class="project-heading gs-heading2 text-start ps-lg-3">
-                <h2 class="text-color-gold text-color-dblue m-0 gulasan_botnia text-capitalize text-color-blue"
+              <div class="project-heading gs-heading2 ps-lg-3 text-md-center text-lg-start text-center">
+                <h2 class="text-color-gold text-color-dblue mt-lg-0 mt-md-0 mt-sm-3 mt-4 gulasan_botnia text-capitalize text-color-blue "
                   style="font-size: 20px;">Premium Kitchen Features in Your <span style="color: #ba6f53">EliteX  </span> Apartment
 
 
@@ -1666,7 +1614,7 @@ width: 80%;
           <div class="row position-relative px-3 ms-lg-1 px-md-4 px-lg-0 pb-md-5 justify-content-between">
 
             <div class="col-md-12 col-lg-8 ps-lg-4 m-0">
-              <div class="project-heading gs-heading2 text-start ps-lg-3">
+              <div class="project-heading gs-heading2 ps-lg-3 text-md-center text-lg-start text-center">
                 <h2 class="text-color-gold text-color-dblue m-0 gulasan_botnia text-capitalize text-color-blue"
                   style="font-size: 20px;">Luxurious Bathroom Amenities in <span style="color: #ba6f53">EliteX  </span>Sector 10 Greater Noida
 
@@ -1730,8 +1678,8 @@ width: 80%;
           <div class="row position-relative px-3 ms-lg-1 px-md-4 px-lg-0 pb-md-5 justify-content-between">
 
             <div class="col-md-12 col-lg-8 ps-lg-4 m-0">
-              <div class="project-heading gs-heading2 text-start ps-lg-3">
-                <h2 class="text-color-gold text-color-dblue m-0 gulasan_botnia text-capitalize text-color-blue"
+              <div class="project-heading gs-heading2 ps-lg-3 text-md-center text-lg-start text-center">
+                <h2 class="text-color-gold text-color-dblue mt-lg-0 mt-md-0 mt-sm-3 mt-4 gulasan_botnia text-capitalize text-color-blue "
                   style="font-size: 20px;">Premium Electrical Infrastructure at <span style="color: #ba6f53">EliteX  </span> Noida Extension
 
 
@@ -1794,7 +1742,7 @@ width: 80%;
           <div class="row position-relative px-3 ms-lg-1 px-md-4 px-lg-0 pb-md-5 justify-content-between">
 
             <div class="col-md-12 col-lg-8 ps-lg-4 m-0">
-              <div class="project-heading gs-heading2 text-start ps-lg-3">
+              <div class="project-heading gs-heading2 ps-lg-3 text-md-center text-lg-start text-center">
                 <h2 class="text-color-gold text-color-dblue m-0 gulasan_botnia text-capitalize text-color-blue"
                   style="font-size: 20px;">Uninterrupted Power Supply at <span style="color: #ba6f53">EliteX  </span> Apartments
 
@@ -1867,7 +1815,7 @@ width: 80%;
 
   <section
     class="container-fluid px-md-5  pb-0 pb-md-4  position-relative gs-gallery-section project-details others-project">
-    <h2 class="mb-3" style="color: #1d3956;"><span style="color: #ba6f53">EliteX  </span> Tower and Unit Specifications </h2>
+    <h2 class="mb-3" style="color: #1d3956; text-align: center;"><span style="color: #ba6f53">EliteX  </span> Tower and Unit Specifications </h2>
 
 
     <div class="row justify-content-start position-relative">
@@ -2266,7 +2214,7 @@ width: 80%;
 
                 <div class="position-relative text-center">
                   <!--<p class="text-color-dblue mb-1 mb-md-4 text-uppercase"></p>-->
-                  <h2 class="text-center px-md-5 pb-md-1 pb-2 pt-3 experience-text" style="font-size: 33px;"><span style="color: #ba6f53">EliteX  </span> in
+                  <h2 class="text-center px-md-5 pb-md-1 pb-2 pt-3 experience-text" style="font-size: 33px; color: #000000;"><span style="color: #ba6f53">EliteX  </span> in
                     Pictures: Explore Your Future Home in Greater Noida
 
                   </h2>
@@ -2315,11 +2263,11 @@ width: 80%;
 
   <section class="container-fluid p-0 position-relative bg-white section7">
     <div class="row align-items-center justify-content-center py-md-5 pt-0 py-4 bg-white px-4 px-md-5">
-      <div class="col-12 col-md-3 col-lg-3 col-xl-6  mb-2 mb-md-0" style="background-color: black; height: 533px;">
+      <div class="col-12 col-md-3 col-lg-3 col-xl-6  mb-2 mb-md-0 d-flex justify-content-center align-items-center" style="background-color: black; height: 533px;">
         <div class="mb-2 mb-lg-4 px-3">
-          <div class="mt-5"> <p class="text-color-dblue avenir-font fw-400 mb-0 ft-g-text "><img width="951" height="951"
+          <div > <p class="text-color-dblue avenir-font fw-400 mb-0 ft-g-text "><img width="951" height="951"
               src="/images/elite_2.png"
-              class="img-fluid footer-g-img footer-img-w elite_2 mt-5" alt="image"
+              class="img-fluid footer-g-img footer-img-w elite_2" alt="image"
               src="/images/elite_2.png"><noscript><img width="951" height="951"
                 src="/images/elite_2.png" class="img-fluid footer-g-img footer-img-w"
                 alt="image"></noscript></p></div>
@@ -2368,25 +2316,7 @@ width: 80%;
 
     <div class="container position-relative pt-md-5 pt-3">
       <div class="row py-2 mt-md-2">
-        <div class="col-6 col-md-4 col-lg-2">
-          <div>
-            <div class="footer_widget mb-4">
-              <div class="menu-footer-menu-1-container">
-                <ul id="menu-footer-menu-1" class="menu">
-                  <li id="menu-item-6182"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6182"><a
-                      href="../../about/index.html">ABOUT COMPANY</a></li>
-                  <li id="menu-item-6183"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6183"><a
-                      href="../../meet-the-family/index.html">G FRATERNITY</a></li>
-                  <li id="menu-item-6184"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6184"><a
-                      href="../../life-at-gulshan/index.html">G LIFE</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+  
         <div class="col-6 col-md-4 col-lg-3">
           <div class="widget">
             <div>
@@ -2395,13 +2325,16 @@ width: 80%;
                   <ul id="menu-footer-menu-2" class="menu">
                     <li id="menu-item-8156"
                       class="menu-item menu-item-type-taxonomy menu-item-object-projects current-menu-item menu-item-8156">
-                      <a href="index.html" aria-current="page">RESIDENTIAL</a></li>
-                    <li id="menu-item-8157"
-                      class="menu-item menu-item-type-taxonomy menu-item-object-projects menu-item-8157"><a
-                        href="../commercial/index.html">COMMERCIAL</a></li>
-                    <li id="menu-item-8158"
-                      class="menu-item menu-item-type-taxonomy menu-item-object-projects menu-item-8158"><a
-                        href="../future-plan/index.html">FUTURE PLAN</a></li>
+                      <a href="index.html" aria-current="page">ABOUT US</a></li>
+                      <li id="menu-item-8156"
+                      class="menu-item menu-item-type-taxonomy menu-item-object-projects current-menu-item menu-item-8156">
+                      <a href="index.html" aria-current="page">CONTACT US</a></li>
+                  
+                      <li id="menu-item-8156"
+                      class="menu-item menu-item-type-taxonomy menu-item-object-projects current-menu-item menu-item-8156">
+                      <a href="../../faqs/index.html" aria-current="page">FAQ's</a></li>
+                  
+                  
                   </ul>
                 </div>
               </div>
@@ -2414,15 +2347,7 @@ width: 80%;
               <div class="footer_widget mb-4">
                 <div class="menu-footer-menu-4-container">
                   <ul id="menu-footer-menu-4" class="menu">
-                    <li id="menu-item-6191"
-                      class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-6191">
-                      <a href="../../blogs/index.html">BLOGS</a></li>
-                    <li id="menu-item-6192"
-                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6192"><a
-                        href="../../events/index.html">EVENTS</a></li>
-                    <li id="menu-item-7997"
-                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7997"><a
-                        href="../../in-the-news/index.html">IN THE NEWS</a></li>
+                 
                   </ul>
                 </div>
               </div>
@@ -2435,15 +2360,7 @@ width: 80%;
             <div class="footer_widget mb-4">
               <div class="menu-footer-manu-3-container">
                 <ul id="menu-footer-manu-3" class="menu">
-                  <li id="menu-item-6188"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6188"><a
-                      href="../../csr/index.html">CSR</a></li>
-                  <li id="menu-item-6190"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6190"><a
-                      href="../../faqs/index.html">FAQ</a></li>
-                  <li id="menu-item-7049"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7049"><a
-                      href="../../nri/index.html">NRI</a></li>
+              
                 </ul>
               </div>
             </div>
@@ -2455,21 +2372,11 @@ width: 80%;
             <div class="gs-instruction align-items-center">
               <h6 class="pb-md-3 pb-1">ENQUIRE NOW</h6>
               <p class="text-white text-start m-0 " style="color: #1D3956;font-size:0.7em"><a href="tel:+911206904400"
-                  class="" style="color: #1D3956;">+91 - 120 690 4400</a><br><a href="mailto:info@gulshanhomz.com"
+                  class="" style="color: #1D3956;">+91 - 120 690 4400</a><br><a href="mailto: enquire@elitegroup.co"
                   class="" style="color: #1D3956;"> enquire@elitegroup.co</a></p>
             </div>
           </div>
-          <h6 class="pt-4 pb-md-3 pb-1">FOLLOW</h6>
-          <div class="footer-socials d-flex">
-            <a href="" target="_blank" class="me-3" title="Instagram"
-              rel="noopener"><i class="fa fa-instagram" style="color: #1D3956;"></i></a>
-            <a href="" target="_blank" class="me-3" title="youtube"
-              rel="noopener"><i class="fa fa-youtube-play" aria-hidden="true" style="color: #1D3956;"></i></a>
-            <a href="" target="_blank" class="me-3" title="Linkedin"
-              rel="noopener"><i class="fa fa-linkedin-square" style="color: #1D3956;"></i></a>
-            <a href="" target="_blank" class="" title="Facebook"
-              rel="noopener"><i class="fa fa-facebook" aria-hidden="true" style="color: #1D3956;"></i></a>
-          </div>
+         
         </div>
 
         <div class="row d-flex px-4 d-block d-md-none">
@@ -2479,23 +2386,13 @@ width: 80%;
               <div class="gs-instruction align-items-center">
                 <h6 class="pb-md-3 pb-1">ENQUIRE NOW</h6>
                 <p class="text-white text-start m-0 " style="color: #1D3956;font-size:0.6em"><a href="tel:+911206904400"
-                    class="" style="color: #1D3956;">+91 - 120 690 4400</a><br><a href="mailto:info@gulshanhomz.com"
-                    class="" style="color: #1D3956;">info@gulshangroup.com</a></p>
+                    class="" style="color: #1D3956;">+91 - 120 690 4400</a><br><a href="mailto: enquire@elitegroup.co"
+                    class="" style="color: #1D3956;"> enquire@elitegroup.co</a></p>
               </div>
             </div>
           </div>
           <div class="col-6">
-            <h6 class="pb-1 mx-4">FOLLOW</h6>
-            <div class="footer-socials d-flex mx-4">
-              <a href="https://www.instagram.com/gulshangroupofficial/" target="_blank" class="me-3" title="Instagram"
-                rel="noopener"><i class="fa fa-instagram" style="color: #1D3956;"></i></a>
-              <a href="https://www.youtube.com/c/GulshanHomz1" target="_blank" class="me-3" title="youtube"
-                rel="noopener"><i class="fa fa-youtube-play" aria-hidden="true" style="color: #1D3956;"></i></a>
-              <a href="https://www.linkedin.com/company/gulshan-homz/" target="_blank" class="me-3" title="Linkedin"
-                rel="noopener"><i class="fa fa-linkedin-square" style="color: #1D3956;"></i></a>
-              <a href="https://www.facebook.com/GulshanGroupofficial/" target="_blank" class="" title="Facebook"
-                rel="noopener"><i class="fa fa-facebook" aria-hidden="true" style="color: #1D3956;"></i></a>
-            </div>
+           
           </div>
         </div>
       </div>
@@ -2520,11 +2417,11 @@ width: 80%;
           <div class="col-md-6">
             <div class="copyright text-center text-lg-end">
 
-              <a href="../../privacy-policy/index.html" target="_blank" class="text-decoration-none me-5 fw-500"
+              <a href="" target="_blank" class="text-decoration-none me-5 fw-500"
                 style="color: #1D3956;font-size:0.7em">PRIVACY POLICY</a>
 
               <!--<a href="#" target="_blank" class="text-decoration-none text-white mx-5">Term Of Use</a>-->
-              <a href="../../disclaimer/index.html" target="_blank" lass="text-decoration-none me-5 fw-600"
+              <a href="" target="_blank" lass="text-decoration-none me-5 fw-600"
                 style="color: #1D3956;font-size:0.7em">DISCLAIMER</a>
             </div>
           </div>
@@ -2540,10 +2437,10 @@ width: 80%;
           <div class="col-md-6 p-0">
             <div class="copyright text-center text-md-start mb-0 mb-md-0">
               <a href="../../index.html" class="pb-4"><img width="1846" height="652"
-                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201846%20652'%3E%3C/svg%3E"
+                  src="/images/elite.png"
                   class="img-fluid" style="width:100px"
-                  data-lazy-src="/wp-content/uploads/2023/09/Logo_Coloured.webp"><noscript><img width="1846"
-                    height="652" src="../../wp-content/uploads/2023/09/Logo_Coloured.webp" class="img-fluid"
+                 src="/images/elite.png"><noscript><img width="1846"
+                    height="652" src="/images/elite.png" class="img-fluid"
                     style="width:100px"></noscript></a>
               <p class="text-color-blue mt-2 mb-1 " style="font-size:0.7em">COPYRIGHT &copy; 2024</p>
             </div>
@@ -2551,11 +2448,11 @@ width: 80%;
           <div class="col-md-6">
             <div class="copyright text-center text-lg-end">
 
-              <a href="../../privacy-policy/index.html" target="_blank" class="text-decoration-none me-5 fw-500"
+              <a href="" target="_blank" class="text-decoration-none me-5 fw-500"
                 style="color: #1D3956;font-size:0.7em">PRIVACY POLICY</a>
 
               <!--<a href="#" target="_blank" class="text-decoration-none text-white mx-5">Term Of Use</a>-->
-              <a href="../../disclaimer/index.html" target="_blank" lass="text-decoration-none me-5 fw-600"
+              <a href="" target="_blank" lass="text-decoration-none me-5 fw-600"
                 style="color: #1D3956;font-size:0.7em">DISCLAIMER</a>
             </div>
           </div>
@@ -2749,6 +2646,14 @@ Trustindex.init_pager(document.querySelectorAll(".ti-widget"));
       }, !1)</script>
   <script data-no-minify="1" async
     src="../../wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script>
+    <script>   document.querySelector('.btn-show-form').addEventListener('click', function() {
+    var formBlock = document.querySelector('.form-block');
+    if (formBlock.style.display === 'block') {
+        formBlock.style.display = 'none';
+    } else {
+        formBlock.style.display = 'block';
+    }
+});</script>
   <script
     data-wpmeteor-nooptimize="true">function lazyLoadThumb(e, alt) { var t = '<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>', a = '<button class="play" aria-label="play Youtube video"></button>'; t = t.replace('alt=""', 'alt="' + alt + '"'); return t.replace("ID", e) + a } function lazyLoadYoutubeIframe() { var e = document.createElement("iframe"), t = "ID?autoplay=1"; t += 0 === this.parentNode.dataset.query.length ? '' : '&' + this.parentNode.dataset.query; e.setAttribute("src", t.replace("ID", this.parentNode.dataset.src)), e.setAttribute("frameborder", "0"), e.setAttribute("allowfullscreen", "1"), e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"), this.parentNode.parentNode.replaceChild(e, this.parentNode) } document.addEventListener("DOMContentLoaded", function () { var e, t, p, a = document.getElementsByClassName("rll-youtube-player"); for (t = 0; t < a.length; t++)e = document.createElement("div"), e.setAttribute("data-id", a[t].dataset.id), e.setAttribute("data-query", a[t].dataset.query), e.setAttribute("data-src", a[t].dataset.src), e.innerHTML = lazyLoadThumb(a[t].dataset.id, a[t].dataset.alt), a[t].appendChild(e), p = e.querySelector('.play'), p.onclick = lazyLoadYoutubeIframe });</script>
 </body>
