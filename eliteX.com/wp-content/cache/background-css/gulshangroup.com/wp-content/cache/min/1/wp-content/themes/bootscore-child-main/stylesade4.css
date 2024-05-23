@@ -262,7 +262,6 @@ ul.sub-menu {
 }
 .menu-item-has-children:after {
   border: 0;
-  content: "\f107";
   font-family: "FontAwesome";
   vertical-align: baseline;
   padding: 0 5px;
@@ -3899,7 +3898,6 @@ nav#nav-main {
   display: none;
 }
 li#menu-item-266 a:before {
-  content: "";
   font-size: 14px;
   font-family: "FontAwesome";
   padding: 0 5px;
