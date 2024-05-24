@@ -4472,6 +4472,7 @@ img {
 }
 .career-form-inner form .form-control,
 .contect-form-inner form .form-control {
+  padding: 5px;
   border-radius: 5.138px;
   border: 0.642px solid var(--back-lines-in-white, #e6e6f0);
   background: var(--shapes-02, #fafafc);
